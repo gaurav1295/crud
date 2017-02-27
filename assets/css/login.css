@@ -1,0 +1,28 @@
+.login{
+  position: relative;
+  margin-left: 35%;
+  top:100px;
+  border-top: 2px solid red;
+  background: #222532;
+  height: 550px;
+  width: 350px;
+}
+
+
+.login_f{
+  position: absolute;
+  top: 200px;
+width: 100%;
+
+}
+
+.name_input{
+
+  width: 100%;
+  background: #32364A;
+  border: none;
+  border-top: 3px solid #393D52;
+  border-bottom: 1px solid #393D52;
+  height: 50px;
+
+}

@@ -1,0 +1,105 @@
+
+.head{
+  display: block;
+  height: 30px;
+  width: 100%;
+  background: #35404F;
+
+
+}
+
+.head>div:nth-child(1){
+
+  top: 25px;
+  height: 5px;
+  width: 5px;
+  background: white;
+  position: absolute;
+  margin-left: 0px;
+  padding:0px;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes move {
+  0%{
+      transform: translate(0,0);
+
+  }
+  100%{
+    transform: translate(1270px,0px);
+  }
+}
+
+
+.headloading{
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(270deg, #f2e90d, #0df230, #f2470d, #f20de3, #0d67f2, #f2ac0d, #94f602);
+  background-size: 1000% 1000%;
+  animation: graydi 5s  infinite;
+
+}
+
+@keyframes graydi {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+
+ /*
+.head>div:nth-child(2){
+
+  top: 10px;
+  height: 5px;
+  width: 5px;
+  background: #C70039  ;
+  position: absolute;
+  margin-left: 0px;
+  padding:0px;
+  animation-delay: 0.5s;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+
+}
+
+.head>div:nth-child(3){
+
+  top: 10px;
+  height: 5px;
+  width: 5px;
+  background: #C70039;
+  position: absolute;
+  margin-left: 0px;
+  padding:0px;
+  animation-delay: 0.34s;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+
+}
+
+.head>div:nth-child(4){
+
+  top: 10px;
+  height: 5px;
+  width: 5px;
+  background: #C70039;
+  position: absolute;
+  margin-left: 0px;
+  padding:0px;
+  animation-delay: 0.22s;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+
+}
+
+*/
