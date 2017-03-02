@@ -1,0 +1,12 @@
+body{
+  background: linear-gradient(60deg, #E3114D, #8e0df2, #f2470d, #f20de3, rgba(231, 210, 27, 0.61), #f2ac0d, #f6e502);
+  background-size: 1300% 1300%;
+  animation: graydi 12s  infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes graydi {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}

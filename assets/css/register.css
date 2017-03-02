@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
-.login{
+.register{
   position: relative;
   margin-left: 35%;
   top:100px;
@@ -11,9 +11,9 @@
 }
 
 
-.login_f{
+.register_f{
   position: absolute;
-  top: 200px;
+  top: 100px;
   width: 100%;
 
 }
@@ -55,7 +55,7 @@
 .enter{
 
   height: 40px;
-  width: 120px;
+  width: 300px;
   margin-left: 30px;
   margin-top: 30px;
   border: 3px solid #D8628E;
@@ -88,24 +88,13 @@ a,a:hover,a:visited{
   text-decoration: none;
 }
 
-
-
-.register{
-  display: none;
-}
-
-.register_after_click{
-  position: relative;
-  margin-left: 35%;
-  top:100px;
-  border-top: 2px solid red;
-  background: #222532;
-  height: 550px;
-  width: 350px;
-}
-
-.register_f{
+.redir_pos{
+  font-size: 15px;
+  float: right;
   position: absolute;
-  top: 200px;
-  width: 100%;
+  top: 400px;
+  left: 160px;
+  width: 120px !important;
+  height:40px !important;
+
 }
